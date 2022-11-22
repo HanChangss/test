@@ -13,6 +13,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+
 @ExtendWith(SpringExtension.class)
 @SpringBootTest // 사용할 경우 H2 데이터베이스를 자동으로 실행해 줍니다.
 public class PostsRepositoryTest {
