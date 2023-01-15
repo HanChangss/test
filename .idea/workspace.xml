@@ -4,27 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cd5e70f-cbf6-466a-990a-69e6f8cbfa83" name="변경" comment="gitignore 커밋">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/auth/CustomOAuth2UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/auth/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/auth/LoginUserArgumentResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/auth/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/auth/dto/OAuthAttributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/auth/dto/SessionUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/user/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-oauth.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6cd5e70f-cbf6-466a-990a-69e6f8cbfa83" name="변경" comment="구글 로그인까지">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-oauth.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-oauth.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +38,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="test" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -117,14 +107,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.jojoldu.book.springboot.web.dto" />
@@ -136,7 +126,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Gradle.test [test]">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.Application" />
       <module name="test.main" />
@@ -150,6 +140,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="HelloControllerTest.helloDto가_리턴된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test.test" />
       <extension name="coverage">
@@ -161,22 +172,6 @@
       <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
       <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.HelloControllerTest" />
       <option name="METHOD_NAME" value="helloDto가_리턴된다" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloControllerTest.hello_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jojoldu.book.springboot.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
-      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.HelloControllerTest" />
-      <option name="METHOD_NAME" value="hello_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.test [test]" />
         <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.IndexControllerTest.메인페이지_로딩" />
         <item itemvalue="JUnit.PostsRepositoryTest.게시글저장_불러오기" />
         <item itemvalue="JUnit.HelloControllerTest.helloDto가_리턴된다" />
-        <item itemvalue="JUnit.HelloControllerTest.hello_test" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +284,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669730847204</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="gitignore 커밋">
+      <created>1672325659519</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672325659519</updated>
+    </task>
+    <task id="LOCAL-00010" summary="구글 로그인까지">
+      <created>1672325686128</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672325686128</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -316,6 +325,7 @@
     <MESSAGE value="11월 27일 4.3까지 진행" />
     <MESSAGE value="11월 28일 4.5까지 진행" />
     <MESSAGE value="gitignore 커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore 커밋" />
+    <MESSAGE value="구글 로그인까지" />
+    <option name="LAST_COMMIT_MESSAGE" value="구글 로그인까지" />
   </component>
 </project>
